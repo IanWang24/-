@@ -22,14 +22,7 @@
    
    #mainNav {
        min-height: 56px;
-       background-color: #fff;
-   }
-   
-   #mainNav .navbar-toggler {
-       font-size: 80%;
-       padding: 0.75rem;
-       color: #64a19d;
-       border: 1px solid #64a19d;
+       background-color: rgb(119, 136, 153, 0.6);
    }
    
    #mainNav .navbar-toggler:focus {
@@ -37,7 +30,7 @@
    }
    
    #mainNav .navbar-brand {
-       color: #161616;
+       color: white;
        font-weight: 700;
        padding: .9rem 0;
    }
@@ -85,15 +78,15 @@
            border-bottom: 0.25rem solid transparent;
        }
        #mainNav.navbar-shrink .nav-link:hover {
-           color: #64a19d;
+           color: white;
        }
        #mainNav.navbar-shrink .nav-link:active {
-           color: #467370;
+           color: white;
        }
        #mainNav.navbar-shrink .nav-link.active {
-           color: #64a19d;
+           color: white;
            outline: none;
-           border-bottom: 0.25rem solid #64a19d;
+           border-bottom: 0.25rem solid white;
        }
    }
    
@@ -106,15 +99,10 @@
    }
    
    h4 {
-       text-align: center
+       text-align: center;
    }
    
    img {
-       width: 100%;
-       height: 100%;
-   }
-   
-   #character img {
        width: 80%;
        height: 20%;
        max-width: 100%;
